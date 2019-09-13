@@ -1,0 +1,17 @@
+.header {
+  padding: 25px;
+  text-align: center;
+  background: #1abc9c;
+  font-size: 22px;
+}
+
+.header-item {
+  padding: 25px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.active-header-item {
+  font-weight: 900;
+}

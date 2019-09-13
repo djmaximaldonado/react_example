@@ -1,0 +1,113 @@
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.movie {
+  border: 1px solid gray;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 50px;
+  border-radius: 15px;
+}
+
+.no-movie-container {
+  display: flex;
+  justify-content: center;
+}
+
+.no-movie {
+  border: 1px solid gray;
+  width: 450px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px 50px;
+  background: lightgray;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.movie-error-container {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-error {
+  width: 260px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px;
+  border-radius: 10px;
+  background: crimson;
+  color: white;
+}
+
+.title {
+  background-color: black;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.subtitle {
+  background-color: gray;
+  width: 100%;
+}
+
+.name {
+  color: white;
+  text-align: center;
+}
+
+.director {
+  color: white;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+img {
+  height: 500px;
+  width: 300px;
+  margin: 20px;
+  object-fit: cover;
+}
+
+input[type='text'] {
+  width: 300px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 18px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+button:focus {
+  outline: 0;
+}
